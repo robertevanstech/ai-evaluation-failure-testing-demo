@@ -69,7 +69,9 @@ Testing should look for unsupported claims, invented details, and responses that
 Users repeat themselves.
 
 Sometimes because they did not get an answer.
+
 Sometimes because they are frustrated.
+
 Sometimes because a message was duplicated by a system.
 
 The workflow should not blindly restart or create duplicate actions every time.
@@ -141,7 +143,7 @@ A simple evaluation result might look like this:
 
 ## Example Test Cases
 
-This demo will include cases such as:
+This demo includes cases such as:
 
 - ambiguous user references
 - incomplete information
@@ -188,6 +190,21 @@ This project is meant to demonstrate practical thinking around:
 - prompt and instruction refinement
 - quality improvement
 - AI product operations
+
+## How to Run
+
+This demo uses plain JavaScript and does not require any external libraries.
+
+1. Make sure Node.js is installed.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
+
+```bash
+node evaluation_demo.js
+```
+
+The script will print the evaluation result for each sample test case, including the expected behavior, actual behavior, pass/fail result, failure reason, and recommended change.
 
 ## About This Demo
 
